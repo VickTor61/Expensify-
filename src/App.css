@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+.selected {
+  color: red;
+}
+.ant-picker-time-panel {
+  display:none !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ant-picker-panels > *:first-child button.ant-picker-header-next-btn {
+  visibility: visible !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-picker-panels > *:first-child button.ant-picker-header-super-next-btn {
+  visibility: visible !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ant-picker-panels > *:last-child {
+  display: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+.ant-picker-panel-container, .ant-picker-footer {
+  width: 280px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-picker-footer-extra > div {
+  flex-wrap: wrap !important; 
 }
